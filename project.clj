@@ -1,5 +1,5 @@
 (defproject sample-cljs-threejs "0.0.1-SNAPSHOT"
-  :description "FIXME: write this!"
+  :description "hello world live coding app using threejs and figwheel-main"
   :url "https://github.com/zrthstr/sample-cljs-threejs"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
