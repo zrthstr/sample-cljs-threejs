@@ -2,11 +2,15 @@
 
 A sample of ClojureScript (cljs) canvas for live coding. Based on Figwheel-main & Three.js (cljsjs/three).
 
+![rotating_wireframe_cube](https://raw.githubusercontent.com/zrthstr/sample-cljs-threejs/master/cube.gif)
+
+
 ## Overview
 
-Hello World-ish 3D live coding setup using ClojureScript.
-Making use of Three.Js, Figwheel-main, WebGl
-Supports auto-hot-reloading
+* Hello World-ish 3D live coding setup using ClojureScript.
+* Making use of Three.Js, Figwheel-main, WebGl
+* Supports auto-hot-reloading
+* Offers REPL
 
 ## What happend so far
 ```
