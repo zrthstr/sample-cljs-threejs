@@ -1,4 +1,4 @@
-(ns ^:figwheel-hooks sample-cljs-threejs.core
+(ns ^:figwheel-hooks sample-cljs-threejs.test
   (:require
    [goog.dom :as gdom]
    cljsjs.three))
@@ -21,9 +21,6 @@
   ;; (swap! app-state update-in [:__figwheel_counter] inc)
 )
 
-(defn multiply [a b] (* a b))
-
-;;(.write js/document "hey")
 
 (defn init []
 
@@ -32,7 +29,7 @@
   ;;First initiate the basic elements of a THREE scene
   (let [scene    (js/THREE.Scene.)
         p-camera (js/THREE.PerspectiveCamera. 75 ( int ( / window.innerWidth window.innerHeight))  0.1 1000)
-        box      (js/THREE.BoxGeometry. 200 200 200)
+        box      (js/THREE.BoxGeometry. 20 10 700)
         mat      (js/THREE.MeshBasicMaterial.
                     (js-obj "color" 0xff0000
                             "wireframe" true))
