@@ -13,7 +13,7 @@ A sample of ClojureScript (cljs) canvas for live coding. Based on Figwheel-main 
 * Offers REPL
 
 ## What happend so far
-    # install clojour, cljs, lein, figwheel-main ...
+    # install clojur, cljs, lein, figwheel-main ...
     lein new figwheel-main <project-name>
 
 
