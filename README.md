@@ -12,9 +12,10 @@ A sample of ClojureScript (cljs) canvas for live coding. Based on Figwheel-main 
 * Supports auto-hot-reloading
 * Offers REPL
 
-## What happend so far
+## Setup
     # install clojur, cljs, lein, figwheel-main ...
     lein new figwheel-main <project-name>
+    cd project-name>
 
 
 ## Development
